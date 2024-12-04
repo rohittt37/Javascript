@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+</head>
+<body>
+
+        <script type="text/javascript">
+        // Javascript = dynamic pages / interactive / live
+        // DOM = Document Object Model
+
+        // variables = container = that can be store some values = bottles
+        // material  = let , var , const
+
+        // var num1;  // variable declaration
+        // num1 = 23; // variable initialization
+        // var num1 = 23; // variable declaration + initialization
+
+        /*
+        datatypes
+        int  = 34; 4 bytes
+        float = 25.32;
+        char = 'a';
+        string = "nothing";
+        double = 6532.06565;  8 bytes
+        boolean = true;
+        long = 12345678910;  8 bytes
+        */
+
+        // var num1 = 23;
+        // var num1 = 4;
+        // document.write(num1);
+
+        // let num1 = 23;
+        // num1 = 43;
+        // document.write(num1);        
+
+        // const num1 = 34;
+        // document.write(num1);        
+
+        // printing methods
+        // console.log("hello world")
+        // alert("hello world")
+        // prompt("hello world")
+        // confirm("Hellow orld")
+
+        let fname = "Mahalan ";
+        let lname = "Gavhane";
+        let fullname = fname + lname;
+        document.write(fullname+"<br>")
+
+        // concatenation / concate == joining of two or more strings + 
+        let num1 = 3;
+        let num2 = 4;
+        let sum = num1 + num2;
+        document.write("Addition is "+sum+"<br>")
+        document.write("Addition is "+num1+num2+"<br>")
+        document.write("Addition is "+(num1+num2)+"<br>")
+
+        </script>
+</body>
+</html>
